@@ -86,7 +86,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:info",
 		children: [
 			// 打赏
-			LinkPresets.Sponsor,
+			// LinkPresets.Sponsor,
 
 			// 关于页面
 			LinkPresets.About,
@@ -102,15 +102,9 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/fengzhongsikao",
 				external: true,
 				icon: "fa7-brands:github",
-			},
-			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
 			},
 			{
 				name: "QQ交流群",
@@ -231,7 +225,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		name: "打赏",
 		url: "/sponsor/",
 		icon: "material-symbols:favorite",
-		pageKey: "sponsor",
+		// pageKey: "sponsor",
 	},
 	About: {
 		name: "关于我",

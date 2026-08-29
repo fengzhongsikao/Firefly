@@ -33,6 +33,115 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true, // 是否启用
 	},
 	{
+		title: "暗雨冥的花田",
+		imgurl: "https://dkrain.com/assets/home/home.webp",
+		desc: "喵喵喵喵喵喵",
+		siteurl: "https://dkrain.com/",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "atdunbg",
+		imgurl: "https://atdunbg.github.io/_astro/demo-avatar.CxcI0ivM_1nbuVe.webp",
+		desc: "一个又菜又爱学的技术小白",
+		siteurl: "https://atdunbg.github.io/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "番茄主理人",
+		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=20447289&s=640",
+		desc: "坐而言不如起而行.",
+		siteurl: "https://fqzlr.com/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "QgxsのBlog",
+		imgurl: "https://www.20210701.xyz/icon.jpeg",
+		desc: "放松心情，漫游四处，处处美景。",
+		siteurl: "https://www.20210701.xyz/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "atticus",
+		imgurl: "https://www.atticus0723.top/avatar.png",
+		desc: "探索空间数据与现代前端的交汇",
+		siteurl: "https://www.atticus0723.top/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "upxuu",
+		imgurl: "https://upxuu.com/images/20260214145619.jpg",
+		desc: "逐光而上",
+		siteurl: "https://upxuu.com/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "雨祁小窝",
+		imgurl: "https://yqamm.cc.cd/_astro/avatar.DsloLJ2B_Z2ceESW.webp",
+		desc: "生命绚烂，别被黑暗压垮",
+		siteurl: "https://yqamm.cc.cd/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "tianhw",
+		imgurl: "https://image.tianhw.top/avatar.webp",
+		desc: "前途似海，来日方长",
+		siteurl: "https://blog.tianhw.top/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "北に向かう",
+		imgurl: "https://ignorant.top/_astro/avatar.DT3z3YNN_TwrwT.webp",
+		desc: "孩儿立志出乡关，学不成名誓不还",
+		siteurl: "https://ignorant.top/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "辰渊尘站",
+		imgurl: "https://blog.mcxiaochen.top/images/congyu/touxiang.webp",
+		desc: "有志不在年高，无志空活百岁。",
+		siteurl: "https://blog.mcxiaochen.top/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "晓林的博客",
+		imgurl: "https://image.peterjxl.com/blog/re0.jpg",
+		desc: "程序猿，自由职业者，博主，英语爱好者，健身达人",
+		siteurl: "https://www.peterjxl.com/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
+		title: "十三",
+		imgurl: "https://blog.nw177.cn/assets/avatar.webp",
+		desc: "欲买桂花同载酒，终不似，少年游。",
+		siteurl: "https://blog.nw177.cn",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+
+	{
 		title: "Firefly Docs",
 		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
 		desc: "Firefly主题模板文档",
