@@ -6,16 +6,16 @@ Firefly is an Astro 7 site with Svelte islands and TypeScript configuration. Mai
 
 ## Build, Test, and Development Commands
 
-Use `pnpm`; the `preinstall` script enforces it.
+Use `bun`; the `preinstall` script enforces it.
 
-- `pnpm dev` or `pnpm start`: run the local Astro dev server.
-- `pnpm check`: run Astro diagnostics.
-- `pnpm type-check`: run TypeScript with `--noEmit`.
-- `pnpm format`: format `src` with Biome.
-- `pnpm lint`: run Biome checks and safe fixes on `src`.
-- `pnpm build`: generate icons, LQIPs, the Astro build, font subsets, and Pagefind search output in `dist`.
-- `pnpm preview`: preview the production build locally.
-- `pnpm new-post`: scaffold a new content post.
+- `bun dev` or `bun start`: run the local Astro dev server.
+- `bun check`: run Astro diagnostics.
+- `bun type-check`: run TypeScript with `--noEmit`.
+- `bun format`: format `src` with Biome.
+- `bun lint`: run Biome checks and safe fixes on `src`.
+- `bun run build`: generate icons, LQIPs, the Astro build, font subsets, and Pagefind search output in `dist`.
+- `bun preview`: preview the production build locally.
+- `bun new-post`: scaffold a new content post.
 
 ## Coding Style & Naming Conventions
 
@@ -23,7 +23,7 @@ Biome is the formatter and linter. It uses tabs for indentation and double quote
 
 ## Testing Guidelines
 
-There is no dedicated unit-test framework configured. Before submitting changes, run `pnpm check`, `pnpm type-check`, and `pnpm build` for rendering, content, or generated asset work. For visual or interactive changes, verify with `pnpm dev` or `pnpm preview` and include screenshots in the PR. Name future tests near the feature they cover, using the local file name as the stem.
+There is no dedicated unit-test framework configured. Before submitting changes, run `bun run check`, `bun run type-check`, and `bun run build` for rendering, content, or generated asset work. For visual or interactive changes, verify with `bun run dev` or `bun run preview` and include screenshots in the PR. Name future tests near the feature they cover, using the local file name as the stem.
 
 ## Commit & Pull Request Guidelines
 

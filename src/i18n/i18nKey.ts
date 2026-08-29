@@ -422,7 +422,7 @@ enum I18nKey {
 	siteInfoBlogVersion = "siteInfoBlogVersion",
 	siteInfoAstroVersion = "siteInfoAstroVersion",
 	siteInfoNodeVersion = "siteInfoNodeVersion",
-	siteInfoPnpmVersion = "siteInfoPnpmVersion",
+	siteInfoBunVersion = "siteInfoBunVersion",
 	siteInfoSystem = "siteInfoSystem",
 	siteInfoExpand = "siteInfoExpand",
 	siteInfoCollapse = "siteInfoCollapse",

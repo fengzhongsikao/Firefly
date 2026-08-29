@@ -7,7 +7,7 @@
 > 一款清新美觀的 Astro 靜態博客主題模板
 > 
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
-![pnpm >= 11](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
+![Bun >= 1.2](https://img.shields.io/badge/bun-%3E%3D1.2-blue)
 ![Astro](https://img.shields.io/badge/Astro-7.2.0-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 >
@@ -98,7 +98,7 @@
 ### 環境要求
 
 - Node.js ≥ 22
-- pnpm ≥ 11
+- Bun ≥ 1.2
 
 ### 本地開發部署
 
@@ -116,11 +116,11 @@
    ```
 3. **安裝依賴：**
    ```bash
-   # 如果沒有安裝 pnpm，先安裝
-   npm install -g pnpm
+   # 如果沒有安裝 bun，先安裝
+   npm install -g bun
    
    # 安裝專案依賴
-   pnpm install
+   bun install
    ```
 
 4. **配置部落格：**
@@ -128,7 +128,7 @@
 
 5. **啟動開發伺服器：**
    ```bash
-   pnpm dev
+   bun dev
    ```
    部落格將在 `http://localhost:4321` 可用
 
@@ -145,9 +145,9 @@ Cloudflare Workers 部署：[【不用服务器，无需备案，零成本搭建
 
    輸出目錄： `dist`
 
-   建置命令： `pnpm run build`
+   建置命令： `bun run build`
 
-   安裝命令： `pnpm install`
+   安裝命令： `bun install`
 
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
@@ -226,10 +226,10 @@ comment: true    # 是否允許留言
 動態檔案存放於 `src/content/dynamic/`，每個 Markdown 檔案代表一則動態。可使用快捷命令建立：
 
 ```bash
-pnpm new-d 今天天氣真不錯
+bun new-d 今天天氣真不錯
 ```
 
-`pnpm new-dynamic <content>` 是功能相同的完整命令。
+`bun new-dynamic <content>` 是功能相同的完整命令。
 
 ```yaml
 ---
@@ -256,17 +256,17 @@ location: China # 位置
 
 | Command                    | Action                                 |
 | :------------------------- | :------------------------------------- |
-| `pnpm install`             | 安裝依賴                               |
-| `pnpm dev`                 | 在 `localhost:4321` 啟動本地開發伺服器 |
-| `pnpm build`               | 建置網站至 `./dist/`                   |
-| `pnpm preview`             | 本地預覽已建置的網站                   |
-| `pnpm check`               | 檢查程式碼中的錯誤                     |
-| `pnpm format`              | 使用 Biome 格式化您的程式碼            |
-| `pnpm new-post <filename>` | 建立新文章                             |
-| `pnpm new-d <content>`     | 建立一則動態                           |
-| `pnpm new-dynamic <content>` | 建立一則動態（完整命令）             |
-| `pnpm astro ...`           | 執行 `astro add`, `astro check` 等指令 |
-| `pnpm astro --help`        | 顯示 Astro CLI 說明                    |
+| `bun install`             | 安裝依賴                               |
+| `bun dev`                 | 在 `localhost:4321` 啟動本地開發伺服器 |
+| `bun run build`            | 建置網站至 `./dist/`                   |
+| `bun preview`             | 本地預覽已建置的網站                   |
+| `bun check`               | 檢查程式碼中的錯誤                     |
+| `bun format`              | 使用 Biome 格式化您的程式碼            |
+| `bun new-post <filename>` | 建立新文章                             |
+| `bun new-d <content>`     | 建立一則動態                           |
+| `bun new-dynamic <content>` | 建立一則動態（完整命令）             |
+| `bun astro ...`           | 執行 `astro add`, `astro check` 等指令 |
+| `bun astro --help`        | 顯示 Astro CLI 說明                    |
 
 ## 🙏 致謝
 

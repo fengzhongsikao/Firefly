@@ -436,7 +436,7 @@ export const ja: Translation = {
 	[Key.siteInfoBlogVersion]: "ブログバージョン",
 	[Key.siteInfoAstroVersion]: "Astro バージョン",
 	[Key.siteInfoNodeVersion]: "Node バージョン",
-	[Key.siteInfoPnpmVersion]: "pnpm バージョン",
+	[Key.siteInfoBunVersion]: "Bun バージョン",
 	[Key.siteInfoSystem]: "システム情報",
 	[Key.siteInfoExpand]: "ビルド情報を展開",
 	[Key.siteInfoCollapse]: "ビルド情報を折畳む",

@@ -435,7 +435,7 @@ export const ko: Translation = {
 	[Key.siteInfoBlogVersion]: "블로그 버전",
 	[Key.siteInfoAstroVersion]: "Astro 버전",
 	[Key.siteInfoNodeVersion]: "Node 버전",
-	[Key.siteInfoPnpmVersion]: "pnpm 버전",
+	[Key.siteInfoBunVersion]: "Bun 버전",
 	[Key.siteInfoSystem]: "시스템",
 	[Key.siteInfoExpand]: "빌드 정보 표시",
 	[Key.siteInfoCollapse]: "빌드 정보 숨기기",

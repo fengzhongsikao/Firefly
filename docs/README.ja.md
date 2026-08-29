@@ -7,7 +7,7 @@
 > 美しくモダンな Astro 静的ブログテーマテンプレート
 > 
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
-![pnpm >= 11](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
+![Bun >= 1.2](https://img.shields.io/badge/bun-%3E%3D1.2-blue)
 ![Astro](https://img.shields.io/badge/Astro-7.2.0-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 >
@@ -98,7 +98,7 @@
 ### 環境要件
 
 - Node.js ≥ 22
-- pnpm ≥ 11
+- Bun ≥ 1.2
 
 ### ローカル開発
 
@@ -116,11 +116,11 @@
    ```
 3. **依存関係のインストール：**
    ```bash
-   # pnpmがインストールされていない場合、まずインストール
-   npm install -g pnpm
+   # bunがインストールされていない場合、まずインストール
+   npm install -g bun
    
    # プロジェクトの依存関係をインストール
-   pnpm install
+   bun install
    ```
 
 4. **ブログの設定：**
@@ -128,7 +128,7 @@
 
 5. **開発サーバーの起動：**
    ```bash
-   pnpm dev
+   bun dev
    ```
    ブログは`http://localhost:4321`で利用可能になります
 
@@ -142,9 +142,9 @@
 
    出力ディレクトリ： `dist`
 
-   ビルドコマンド： `pnpm run build`
+   ビルドコマンド： `bun run build`
 
-   インストールコマンド： `pnpm install`
+   インストールコマンド： `bun install`
 
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
@@ -223,10 +223,10 @@ comment: true    # コメントを有効化
 モーメントは `src/content/dynamic/` に保存され、1つの Markdown ファイルが1件のモーメントに対応します。次のコマンドで作成できます：
 
 ```bash
-pnpm new-d 今日はとても良い天気です
+bun new-d 今日はとても良い天気です
 ```
 
-`pnpm new-dynamic <content>` も同じ機能の完全なコマンドです。
+`bun new-dynamic <content>` も同じ機能の完全なコマンドです。
 
 ```yaml
 ---
@@ -254,17 +254,17 @@ Astro がデフォルトで対応している[GitHub Flavored Markdown](https://
 
 | Command                    | Action                                          |
 | :------------------------- | :---------------------------------------------- |
-| `pnpm install`             | 依存関係をインストール                          |
-| `pnpm dev`                 | `localhost:4321`でローカル開発サーバーを起動    |
-| `pnpm build`               | `./dist/`にサイトをビルド                       |
-| `pnpm preview`             | ビルドされたサイトをローカルでプレビュー        |
-| `pnpm check`               | コード内のエラーをチェック                      |
-| `pnpm format`              | Biome を使用してコードをフォーマット            |
-| `pnpm new-post <filename>` | 新しい記事を作成                                |
-| `pnpm new-d <content>`     | 新しいモーメントを作成                          |
-| `pnpm new-dynamic <content>` | 新しいモーメントを作成（完全なコマンド）      |
-| `pnpm astro ...`           | `astro add`、`astro check` などのコマンドを実行 |
-| `pnpm astro --help`        | Astro CLI ヘルプを表示                          |
+| `bun install`             | 依存関係をインストール                          |
+| `bun dev`                 | `localhost:4321`でローカル開発サーバーを起動    |
+| `bun run build`            | `./dist/`にサイトをビルド                       |
+| `bun preview`             | ビルドされたサイトをローカルでプレビュー        |
+| `bun check`               | コード内のエラーをチェック                      |
+| `bun format`              | Biome を使用してコードをフォーマット            |
+| `bun new-post <filename>` | 新しい記事を作成                                |
+| `bun new-d <content>`     | 新しいモーメントを作成                          |
+| `bun new-dynamic <content>` | 新しいモーメントを作成（完全なコマンド）      |
+| `bun astro ...`           | `astro add`、`astro check` などのコマンドを実行 |
+| `bun astro --help`        | Astro CLI ヘルプを表示                          |
 
 ## 🙏 謝辞
 

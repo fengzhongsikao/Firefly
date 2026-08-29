@@ -438,7 +438,7 @@ export const en: Translation = {
 	[Key.siteInfoBlogVersion]: "Blog Version",
 	[Key.siteInfoAstroVersion]: "Astro Version",
 	[Key.siteInfoNodeVersion]: "Node Version",
-	[Key.siteInfoPnpmVersion]: "pnpm Version",
+	[Key.siteInfoBunVersion]: "Bun Version",
 	[Key.siteInfoSystem]: "System",
 	[Key.siteInfoExpand]: "Show build info",
 	[Key.siteInfoCollapse]: "Hide build info",

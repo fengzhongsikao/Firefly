@@ -7,7 +7,7 @@
 > 산뜻하고 아름다운 Astro 정적 블로그 테마 템플릿
 >
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen)
-![pnpm >= 11](https://img.shields.io/badge/pnpm-%3E%3D11-blue)
+![Bun >= 1.2](https://img.shields.io/badge/bun-%3E%3D1.2-blue)
 ![Astro](https://img.shields.io/badge/Astro-7.2.0-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 >
@@ -97,7 +97,7 @@
 ### 요구 사항
 
 - Node.js ≥ 22
-- pnpm ≥ 11
+- Bun ≥ 1.2
 
 ### 로컬 개발
 
@@ -115,11 +115,11 @@
    ```
 3. **의존성 설치:**
    ```bash
-   # Install pnpm if not installed
-   npm install -g pnpm
+   # Install bun if not installed
+   npm install -g bun
 
    # Install project dependencies
-   pnpm install
+   bun install
    ```
 
 4. **블로그 구성:**
@@ -127,7 +127,7 @@
 
 5. **개발 서버 시작:**
    ```bash
-   pnpm dev
+   bun dev
    ```
    블로그는 `http://localhost:4321`에서 이용할 수 있습니다.
 
@@ -141,9 +141,9 @@
 
    출력 디렉터리: `dist`
 
-   빌드 명령: `pnpm run build`
+   빌드 명령: `bun run build`
 
-   설치 명령: `pnpm install`
+   설치 명령: `bun install`
 
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
@@ -223,10 +223,10 @@ comment: true    # Enable comments
 일상 파일은 `src/content/dynamic/`에 저장되며, 하나의 Markdown 파일이 하나의 일상에 해당합니다. 다음 명령으로 만들 수 있습니다.
 
 ```bash
-pnpm new-d The weather is lovely today
+bun new-d The weather is lovely today
 ```
 
-`pnpm new-dynamic <content>`는 같은 기능을 하는 전체 명령입니다.
+`bun new-dynamic <content>`는 같은 기능을 하는 전체 명령입니다.
 
 ```yaml
 ---
@@ -254,17 +254,17 @@ Astro가 기본으로 지원하는 [GitHub Flavored Markdown](https://github.git
 
 | Command                    | Action                                              |
 |:---------------------------|:----------------------------------------------------|
-| `pnpm install`             | 의존성 설치                                         |
-| `pnpm dev`                 | `localhost:4321`에서 로컬 개발 서버 시작            |
-| `pnpm build`               | 사이트를 `./dist/`에 빌드                           |
-| `pnpm preview`             | 빌드된 사이트를 로컬에서 미리 보기                  |
-| `pnpm check`               | 코드 오류 검사                                      |
-| `pnpm format`              | Biome으로 코드 서식 정리                            |
-| `pnpm new-post <filename>` | 새 게시물 생성                                      |
-| `pnpm new-d <content>`     | 새 일상 생성                                        |
-| `pnpm new-dynamic <content>` | 새 일상 생성(전체 명령)                           |
-| `pnpm astro ...`           | `astro add`, `astro check` 및 기타 명령 실행         |
-| `pnpm astro --help`        | Astro CLI 도움말 표시                               |
+| `bun install`             | 의존성 설치                                         |
+| `bun dev`                 | `localhost:4321`에서 로컬 개발 서버 시작            |
+| `bun run build`            | 사이트를 `./dist/`에 빌드                           |
+| `bun preview`             | 빌드된 사이트를 로컬에서 미리 보기                  |
+| `bun check`               | 코드 오류 검사                                      |
+| `bun format`              | Biome으로 코드 서식 정리                            |
+| `bun new-post <filename>` | 새 게시물 생성                                      |
+| `bun new-d <content>`     | 새 일상 생성                                        |
+| `bun new-dynamic <content>` | 새 일상 생성(전체 명령)                           |
+| `bun astro ...`           | `astro add`, `astro check` 및 기타 명령 실행         |
+| `bun astro --help`        | Astro CLI 도움말 표시                               |
 
 ## 🙏 감사의 말
 

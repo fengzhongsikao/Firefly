@@ -10,18 +10,18 @@ Firefly is a feature-rich static blog theme built on **Astro 7** with **Svelte 5
 
 | Command | Purpose |
 |---|---|
-| `pnpm dev` | Dev server at `localhost:4321` |
-| `pnpm build` | Production build (LQIPs → VNDB covers → Astro build → pio asset pruning → font subsetting → Pagefind indexing) |
-| `pnpm preview` | Preview production build |
-| `pnpm check` | `astro check` for type/error checking |
-| `pnpm type-check` | `tsc --noEmit --isolatedDeclarations` (covers `src/` and `scripts/`) |
-| `pnpm lint` | Biome lint + auto-fix |
-| `pnpm format` | Biome format |
-| `pnpm new-post <filename>` | Scaffold a new blog post |
-| `pnpm new-dynamic` (`new-d`) | Scaffold a new dynamic (microblog) entry |
-| `pnpm lqips` | Regenerate LQIP data into `src/constants/lqips.json` |
+| `bun dev` | Dev server at `localhost:4321` |
+| `bun run build` | Production build (LQIPs → VNDB covers → Astro build → pio asset pruning → font subsetting → Pagefind indexing) |
+| `bun preview` | Preview production build |
+| `bun check` | `astro check` for type/error checking |
+| `bun type-check` | `tsc --noEmit --isolatedDeclarations` (covers `src/` and `scripts/`) |
+| `bun lint` | Biome lint + auto-fix |
+| `bun format` | Biome format |
+| `bun new-post <filename>` | Scaffold a new blog post |
+| `bun new-dynamic` (`new-d`) | Scaffold a new dynamic (microblog) entry |
+| `bun lqips` | Regenerate LQIP data into `src/constants/lqips.json` |
 
-Package manager is **pnpm** (enforced). Node.js >= 22 required.
+Package manager is **Bun** (enforced via `preinstall`). Node.js >= 22 required.
 
 ## Architecture
 
@@ -76,7 +76,7 @@ Defined in `src/content.config.ts`:
 
 - **Biome** enforces: tab indentation, double quotes, recommended lint rules
 - Relaxed rules for `.svelte`/`.astro`/`.vue` files (`useConst`, `useImportType`, `noUnusedVariables`, `noUnusedImports` off)
-- `pnpm lint`/`pnpm format` only target `./src` — `scripts/` is type-checked (tsconfig `include`) but not linted, and currently has pre-existing Biome findings
+- `bun lint`/`bun format` only target `./src` — `scripts/` is type-checked (tsconfig `include`) but not linted, and currently has pre-existing Biome findings
 - `scripts/subset-font.d.ts` is a hand-written ambient declaration for the untyped `subset-font` package
 - Commit convention: **Conventional Commits** (`feat:`, `fix:`, `chore:`, etc.)
 
@@ -84,7 +84,7 @@ Defined in `src/content.config.ts`:
 
 Multi-step: `scripts/generate-lqips.ts` → `scripts/generate-vndb-covers.ts` → `astro build` → `scripts/prune-pio-assets.ts` → `scripts/subset-fonts.ts` → `scripts/minify-inline-scripts.ts` → `pagefind --site dist`
 
-LQIP data is generated into `src/constants/lqips.json` and committed — regenerate with `pnpm lqips`. Icon data lives in `src/constants/icons-data.json` (committed, Biome-ignored, consumed by `src/components/common/Icon.svelte`) but has no generator script in the current build.
+LQIP data is generated into `src/constants/lqips.json` and committed — regenerate with `bun lqips`. Icon data lives in `src/constants/icons-data.json` (committed, Biome-ignored, consumed by `src/components/common/Icon.svelte`) but has no generator script in the current build.
 
 `generate-vndb-covers.ts` downloads VNDB cover art into `public/vndb-covers/` (gitignored, skips files that already exist). It no-ops unless `siteConfig.vndb` has a `userId`, `downloadCovers: true`, and `mode: "static"`.
 

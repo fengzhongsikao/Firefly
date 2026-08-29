@@ -8,7 +8,7 @@ const content = process.argv.slice(2).join(" ").trim();
 
 if (!content) {
 	console.error(
-		"Error: No dynamic content provided\nUsage: pnpm new-dynamic <content>",
+		"Error: No dynamic content provided\nUsage: bun run new-dynamic <content>",
 	);
 	process.exit(1);
 }

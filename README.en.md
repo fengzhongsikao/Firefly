@@ -7,7 +7,7 @@
 > A Fresh and Beautiful Astro Static Blog Theme Template
 > 
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
-![pnpm >= 11](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
+![Bun >= 1.2](https://img.shields.io/badge/bun-%3E%3D1.2-blue)
 ![Astro](https://img.shields.io/badge/Astro-7.2.0-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 >
@@ -97,7 +97,7 @@ If you have useful features and optimizations, please submit a [Pull Request](ht
 ### Requirements
 
 - Node.js ≥ 22
-- pnpm ≥ 11
+- Bun ≥ 1.2
 
 ### Local Development
 
@@ -115,11 +115,11 @@ If you have useful features and optimizations, please submit a [Pull Request](ht
    ```
 3. **Install dependencies:**
    ```bash
-   # Install pnpm if not installed
-   npm install -g pnpm
+   # Install bun if not installed
+   npm install -g bun
    
    # Install project dependencies
-   pnpm install
+   bun install
    ```
 
 4. **Configure blog:**
@@ -127,7 +127,7 @@ If you have useful features and optimizations, please submit a [Pull Request](ht
 
 5. **Start development server:**
    ```bash
-   pnpm dev
+   bun dev
    ```
    Blog will be available at `http://localhost:4321`
 
@@ -141,9 +141,9 @@ If you have useful features and optimizations, please submit a [Pull Request](ht
 
    Output Directory: `dist`
 
-   Build Command: `pnpm run build`
+   Build Command: `bun run build`
 
-   Install Command: `pnpm install`
+   Install Command: `bun install`
 
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
@@ -223,10 +223,10 @@ comment: true    # Enable comments
 Moment files are stored in `src/content/dynamic/`, with one Markdown file per moment. Create one with:
 
 ```bash
-pnpm new-d The weather is lovely today
+bun new-d The weather is lovely today
 ```
 
-`pnpm new-dynamic <content>` is the equivalent full command.
+`bun new-dynamic <content>` is the equivalent full command.
 
 ```yaml
 ---
@@ -254,17 +254,17 @@ All commands need to be executed in the project root directory:
 
 | Command                    | Action                                              |
 |:---------------------------|:----------------------------------------------------|
-| `pnpm install`             | Install dependencies                                |
-| `pnpm dev`                 | Start local development server at `localhost:4321`  |
-| `pnpm build`               | Build site to `./dist/`                             |
-| `pnpm preview`             | Preview built site locally                          |
-| `pnpm check`               | Check for errors in code                            |
-| `pnpm format`              | Format your code using Biome                        |
-| `pnpm new-post <filename>` | Create new article                                  |
-| `pnpm new-d <content>`     | Create a new moment                                 |
-| `pnpm new-dynamic <content>` | Create a new moment (full command)                |
-| `pnpm astro ...`           | Execute `astro add`, `astro check` and other commands |
-| `pnpm astro --help`        | Display Astro CLI help                              |
+| `bun install`             | Install dependencies                                |
+| `bun dev`                 | Start local development server at `localhost:4321`  |
+| `bun run build`            | Build site to `./dist/`                             |
+| `bun preview`             | Preview built site locally                          |
+| `bun check`               | Check for errors in code                            |
+| `bun format`              | Format your code using Biome                        |
+| `bun new-post <filename>` | Create new article                                  |
+| `bun new-d <content>`     | Create a new moment                                 |
+| `bun new-dynamic <content>` | Create a new moment (full command)                |
+| `bun astro ...`           | Execute `astro add`, `astro check` and other commands |
+| `bun astro --help`        | Display Astro CLI help                              |
 
 ## 🙏 Acknowledgments
 

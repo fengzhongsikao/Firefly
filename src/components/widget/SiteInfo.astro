@@ -43,12 +43,12 @@ try {
 // Node 版本
 const nodeVersion = process.version;
 
-// pnpm 版本（从 npm_config_user_agent 解析）
-let pnpmVersion = "unknown";
+// Bun 版本（从 npm_config_user_agent 解析）
+let bunVersion = "unknown";
 const userAgent = process.env.npm_config_user_agent || "";
-const pnpmMatch = userAgent.match(/pnpm\/([\d.]+)/);
-if (pnpmMatch) {
-	pnpmVersion = `v${pnpmMatch[1]}`;
+const bunMatch = userAgent.match(/bun\/([\d.]+)/);
+if (bunMatch) {
+	bunVersion = `v${bunMatch[1]}`;
 }
 
 // 构建时间
@@ -141,9 +141,9 @@ const detailItems: {
 		value: nodeVersion,
 	},
 	{
-		icon: "simple-icons:pnpm",
-		label: i18n(I18nKey.siteInfoPnpmVersion),
-		value: pnpmVersion,
+		icon: "simple-icons:bun",
+		label: i18n(I18nKey.siteInfoBunVersion),
+		value: bunVersion,
 	},
 	{
 		icon: "material-symbols:build-outline",

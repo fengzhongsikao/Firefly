@@ -439,7 +439,7 @@ export const ru: Translation = {
 	[Key.siteInfoBlogVersion]: "Версия блога",
 	[Key.siteInfoAstroVersion]: "Astro",
 	[Key.siteInfoNodeVersion]: "Node",
-	[Key.siteInfoPnpmVersion]: "pnpm",
+	[Key.siteInfoBunVersion]: "Bun",
 	[Key.siteInfoSystem]: "Система",
 	[Key.siteInfoExpand]: "Показать информацию о сборке",
 	[Key.siteInfoCollapse]: "Скрыть информацию о сборке",

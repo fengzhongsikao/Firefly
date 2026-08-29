@@ -5,7 +5,6 @@
   "engines": {
     "node": ">=22.23.0"
   },
-  "packageManager": "pnpm@11.22.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -19,7 +18,7 @@
     "new-post": "node scripts/new-post.js",
     "format": "biome format --write ./src ./scripts",
     "lint": "biome check --write ./src ./scripts",
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "npx only-allow bun",
     "lqips": "npx tsx scripts/generate-lqips.ts",
     "github-cards": "npx tsx scripts/generate-github-card-data.ts"
   },
