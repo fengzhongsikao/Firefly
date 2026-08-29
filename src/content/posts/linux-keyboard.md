@@ -6,7 +6,6 @@ image: ''
 tags: [linux]
 category: "linux 生存日记"
 draft: false
-lang: zh
 ---
 
 ## 根本原因
