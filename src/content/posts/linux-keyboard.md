@@ -91,15 +91,15 @@ iasl -d dsdt.dat
 
 ### 第四步：修改 DSDT（核心步骤）
 
-用你熟悉的编辑器打开 `dsdt.dsl`。这里以 nano 为例：
+用你熟悉的编辑器打开 `dsdt.dsl`。这里用mousepad打开：
 
 ```bash
-nano dsdt.dsl
+mousepad dsdt.dsl
 ```
 
 #### 修改点 1：修正键盘中断极性
 
-按 `Ctrl+W` 搜索 `Device (PS2K)`，找到键盘设备的定义块。向下找几行，你会看到类似这样的代码：
+按 `Ctrl+F` 搜索 `Device (PS2K)`，找到键盘设备的定义块。向下找几行，你会看到类似这样的代码：
 
 ```asl
 IRQ (Edge, ActiveLow, Shared, )
