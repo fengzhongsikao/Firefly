@@ -1,7 +1,7 @@
 ---
 title: linux系统设置
 published: 2026-08-31
-description: ''
+description: '关于 archlinux的字体,软件等设置'
 image: ''
 tags: []
 category: 'linux 生存日记'
