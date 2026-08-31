@@ -168,6 +168,15 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true,
 	},
 	{
+		title: "风起导航",
+		imgurl: "https://www.windtop.top/xiao.webp",
+		desc: "风起导航",
+		siteurl: "https://www.windtop.top/",
+		tags: ["Navigation"],
+		weight: 9,
+		enabled: true,
+	},
+	{
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
 		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
