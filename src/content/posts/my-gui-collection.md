@@ -5,7 +5,7 @@ updated: 2026-05-22
 description: '关于各种语言的gui 框架收集'
 image: ''
 tags: [gui]
-category: 'desktop'
+category: 'gui'
 draft: false 
 ---
 

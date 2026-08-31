@@ -4,7 +4,7 @@ published: 2026-08-31
 description: ''
 image: ''
 tags: []
-category: ''
+category: 'linux 生存日记'
 draft: false
 lang: ''
 slug: linux
