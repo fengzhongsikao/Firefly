@@ -140,7 +140,24 @@ export const friendsConfig: FriendLink[] = [
 		weight: 9, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
-
+	{
+		title: "喵栈",
+		imgurl: "https://www.stackmeow.tech/favicon/favicon-1.png",
+		desc: "人生是层层堆叠的经历，而内心永远保有一只自在小猫。",
+		siteurl: "https://www.stackmeow.tech/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},	
+	{
+		title: "furinafans",
+		imgurl: "https://furinafans.com/_astro/avatar.CmRtaOLc_Z4qUwo.webp",
+		desc: "欢唱,以我之名",
+		siteurl: "https://furinafans.com/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
 	{
 		title: "Firefly Docs",
 		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
