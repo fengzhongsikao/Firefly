@@ -3,7 +3,7 @@ title: Linux 发行版记录
 published: 2026-08-31
 description: ''
 image: ''
-tags: []
+tags: [linux]
 category: 'linux 生存日记'
 draft: false
 lang: ''

@@ -111,7 +111,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				{
 					name: "Email",
 					icon: "fa7-solid:envelope",
-					url: "mailto:xiaye@msn.com",
+					url: "fivefree@qq.com",
 				},
 				{
 					name: "RSS",
