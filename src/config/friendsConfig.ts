@@ -141,6 +141,15 @@ export const friendsConfig: FriendLink[] = [
     enabled: true, // 是否启用
   },
   {
+    title: "Lin Blog",
+    imgurl: "https://linlog.top/api/uploads/2026/09/1788411216332767920-dca59196a965c5e8.jpg",
+    desc: "记录技术、互联网与日常观察",
+    siteurl: "https://linlog.top/",
+    tags: ["Blog"],
+    weight: 9, // 权重，数字越大排序越靠前
+    enabled: true, // 是否启用
+  },
+  {
     title: "喵栈",
     imgurl: "https://www.stackmeow.tech/favicon/favicon-1.png",
     desc: "人生是层层堆叠的经历，而内心永远保有一只自在小猫。",
