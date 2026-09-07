@@ -49,7 +49,7 @@ export const siteConfig: SiteConfig = {
   site_url: "https://blog.windstart.top",
 
   // 站点描述
-  description: "风起的个人博客",
+  description: "archlinux, 游戏,静态博客、Kitty + Neovim + Layzvim、gui 生存日记与折腾记录。",
 
   // 站点关键词
   keywords: [
