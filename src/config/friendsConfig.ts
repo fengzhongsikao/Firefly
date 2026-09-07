@@ -76,7 +76,16 @@ export const friendsConfig: FriendLink[] = [
     tags: ["Blog"],
     weight: 9, // 权重，数字越大排序越靠前
     enabled: true, // 是否启用
+  }, {
+    title: "傥师妹TangShiMei的小空间",
+    imgurl: "https://blog.224418.xyz/img/favicon/avatar.png",
+    desc: "想和你重新认识一次，从你叫什么开始",
+    siteurl: "https://blog.224418.xyz/",
+    tags: ["Blog"],
+    weight: 9, // 权重，数字越大排序越靠前
+    enabled: true, // 是否启用
   },
+
   {
     title: "upxuu",
     imgurl: "https://upxuu.com/images/20260214145619.jpg",
