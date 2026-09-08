@@ -76,7 +76,8 @@ export const friendsConfig: FriendLink[] = [
     tags: ["Blog"],
     weight: 9, // 权重，数字越大排序越靠前
     enabled: true, // 是否启用
-  }, {
+  },
+  {
     title: "傥师妹TangShiMei的小空间",
     imgurl: "https://blog.224418.xyz/img/favicon/avatar.png",
     desc: "想和你重新认识一次，从你叫什么开始",
@@ -85,7 +86,24 @@ export const friendsConfig: FriendLink[] = [
     weight: 9, // 权重，数字越大排序越靠前
     enabled: true, // 是否启用
   },
-
+  {
+    title: "2B博客",
+    imgurl: "https://imgs.2broear.com/2broear.png",
+    desc: "天意易行，人意难平",
+    siteurl: "https://blog.2broear.com/",
+    tags: ["Blog"],
+    weight: 9, // 权重，数字越大排序越靠前
+    enabled: true, // 是否启用
+  },
+  {
+    title: "风记星辰",
+    imgurl: "https://weavatar.com/avatar/6085f2ddd3c17e493dafdaeccbf2713e3f679298246f35fc7d4d248f5cea361b?s=400&d=initials&r=g&initials=me",
+    desc: "记录设计灵感、分享生活火花",
+    siteurl: "https://www.thyuu.com/",
+    tags: ["Blog"],
+    weight: 9, // 权重，数字越大排序越靠前
+    enabled: true, // 是否启用
+  },
   {
     title: "upxuu",
     imgurl: "https://upxuu.com/images/20260214145619.jpg",
