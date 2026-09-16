@@ -124,9 +124,9 @@ export const friendsConfig: FriendLink[] = [
   },
   {
     title: "雨祁小窝",
-    imgurl: "https://yqamm.cc.cd/_astro/avatar.DsloLJ2B_Z2ceESW.webp",
+    imgurl: "https://yqamm.top/assets/avatar.webp",
     desc: "生命绚烂，别被黑暗压垮",
-    siteurl: "https://yqamm.cc.cd/",
+    siteurl: "https://yqamm.top/",
     tags: ["Blog"],
     weight: 9, // 权重，数字越大排序越靠前
     enabled: true, // 是否启用
@@ -213,17 +213,8 @@ export const friendsConfig: FriendLink[] = [
     enabled: true,
   },
   {
-    title: "Duala",
-    imgurl: "https://moe.blog/content/templates/NULL/images/tx.jpg",
-    desc: "我喜欢天空的颜色",
-    siteurl: "https://blog.ma/",
-    tags: ["Blog"],
-    weight: 9,
-    enabled: true,
-  },
-  {
     title: "HY",
-    imgurl: "https://9ll.uk/_astro/avatar.CjtmSIpt_2u00ph.webp",
+    imgurl: "https://www.9ll.uk/_astro/cover.Doo_nJpf_23IG8r.webp",
     desc: "World And Life",
     siteurl: "https://9ll.uk/",
     tags: ["Blog"],
