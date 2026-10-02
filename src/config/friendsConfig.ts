@@ -106,7 +106,7 @@ export const friendsConfig: FriendLink[] = [
   },
   {
     title: "upxuu",
-    imgurl: "https://upxuu.com/images/20260214145619.jpg",
+    imgurl: "https://upxuu.com/images/me.jpg",
     desc: "逐光而上",
     siteurl: "https://upxuu.com/",
     tags: ["Blog"],
