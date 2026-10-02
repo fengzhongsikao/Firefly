@@ -2,7 +2,7 @@
 title: 机械革命键盘在 linux 下无效的问题
 published: 2026-08-26
 description: 关于机械革命笔记本内置键盘在 archlinux 下无效的问题解决
-image: ''
+image: './keychron.png'
 tags: [linux]
 category: "linux生存日记"
 draft: false
