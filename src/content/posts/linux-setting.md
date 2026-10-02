@@ -4,7 +4,7 @@ published: 2026-08-31
 description: '关于 archlinux的字体,软件等设置'
 image: ''
 tags: [linux]
-category: 'linux 生存日记'
+category: 'linux生存日记'
 draft: false
 lang: ''
 slug: linux-xi-tong-she-zhi
