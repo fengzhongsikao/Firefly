@@ -1,5 +1,5 @@
 ---
-title: common-software.md
+title: archlinux常用软件推荐
 published: 2026-10-02
 description: '关于archlinux常用软件的安装'
 image: ''
