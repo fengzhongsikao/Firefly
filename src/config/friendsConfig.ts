@@ -214,7 +214,7 @@ export const friendsConfig: FriendLink[] = [
   },
   {
     title: "HY",
-    imgurl: "https://www.9ll.uk/_astro/cover.Doo_nJpf_23IG8r.webp",
+    imgurl: "https://9ll.uk/_astro/avatar.CjtmSIpt_1NzKwF.webp",
     desc: "World And Life",
     siteurl: "https://9ll.uk/",
     tags: ["Blog"],
