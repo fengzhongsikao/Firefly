@@ -16,6 +16,11 @@ Loupe（GNOME 新版看图，现代简洁、Wayland 友好）
 sudo pacman -S loupe
 ```
 
+## 影音播放
+```bash
+sudo pacman -S mpv
+```
+
 ## pdf软件
 批注 / 办公最强：Okular（KDE）
 ```bash
