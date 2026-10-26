@@ -114,6 +114,15 @@ export const friendsConfig: FriendLink[] = [
     enabled: true, // 是否启用
   },
   {
+    title: "linmeng'blog",
+    imgurl: "https://cdn.kslinmeng.cn/gh/tanf/my-photos@main/new-windows1/20260901222623983.png",
+    desc: "爱吃柠檬",
+    siteurl: "https://kslinmeng.cn/",
+    tags: ["Blog"],
+    weight: 9, // 权重，数字越大排序越靠前
+    enabled: true, // 是否启用
+  },
+  {
     title: "星宇安全实验室",
     imgurl: "https://bk.zhaozhiqiang.pw/wp-content/uploads/2026/07/1784847314130_148x148.png",
     desc: "星宇安全实验室，专注网络安全技术分享，记录团队实战经历、安全研究与编程成长笔记，致力于分享网安学习干货。",
@@ -230,7 +239,7 @@ export const friendsConfig: FriendLink[] = [
     weight: 9,
     enabled: true,
   },
-   {
+  {
     title: "年华",
     imgurl: "https://q1.qlogo.cn/g?b=qq&nk=1323860289&s=640",
     desc: "分享生活和技术",
