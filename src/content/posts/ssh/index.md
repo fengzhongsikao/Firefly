@@ -9,6 +9,8 @@ draft: false
 lang: 'zh-CN'
 slug: ssh
 ---
+前 10 款为开源软件，源码公开、可自行构建；最后两款为闭源商业软件，核心功能有可长期使用的免费版，进阶能力在付费商业版中解锁。
+
 1. [motty](https://motty.page/zh)
 
 一款免费开源的原生 SSH 客户端，基于 Go + Viva 桌面框架构建，不使用 Electron，直接调用 Metal/Direct3D/Vulkan 渲染，启动不到一秒、空闲不占资源。将 SSH、SFTP、端口转发、远程桌面和 AI 助手整合进同一个原生窗口：真 PTY 终端（真彩色、5000 行回滚、分屏、录制）、带续传队列与原子替换的 SFTP（另含 SCP、ZMODEM/XMODEM/YMODEM）、本地/远程/SOCKS5/HTTP CONNECT 转发与逐跳校验的跳板链、支持证书固定的 VNC 与 RDP 标签页；AI 助手分 Ask/Agent 模式按风险分级审批，另提供仅回环的 MCP 服务器供外部代理使用。安全方面主机密钥先发前校验、保险库 AES-256-GCM 加密、密钥存系统密钥库，跨 macOS/Windows/Linux，Apache-2.0 协议开源，无需账号、无遥测。
@@ -63,7 +65,7 @@ b站视频[我用 Rust 实现 SSH 工具完整的心路历程](https://www.bilib
 
 9. [btshell](https://blob.btshell.top/)
 
-一款简洁高效的 SSH 运维管理工具，由 Flutter + Rust 开发，目标是提升工作效率。核心功能：SSH 连接（支持 SOCKS5 代理、跳板机、快速重开、trzsz 文件传输）、Telnet 与串口；Starship 主题与自定义外观；本地网络监控与服务器 CPU/内存/负载监控；终端搜索高亮、链接打开、记录下载；文件管理支持键盘首字母定位、拖拽上传、右键编辑/重命名/解压/压缩/改权限、双击编辑并监听自动保存；网络连接统计、进程查询（右键 kill）、目录大小统计、Linux 命令学习文档与常用软件安装脚本；历史记录路径与命令快速过滤、收藏；PWD 路径联动、Docker/Podman 镜像容器管理；支持通过 GitHub/Gitee 同步配置数据，计划推出免费版与付费版。
+一款开源、简洁高效的 SSH 运维管理工具，由 Flutter + Rust 开发，目标是提升工作效率。核心功能：SSH 连接（支持 SOCKS5 代理、跳板机、快速重开、trzsz 文件传输）、Telnet 与串口；Starship 主题与自定义外观；本地网络监控与服务器 CPU/内存/负载监控；终端搜索高亮、链接打开、记录下载；文件管理支持键盘首字母定位、拖拽上传、右键编辑/重命名/解压/压缩/改权限、双击编辑并监听自动保存；网络连接统计、进程查询（右键 kill）、目录大小统计、Linux 命令学习文档与常用软件安装脚本；历史记录路径与命令快速过滤、收藏；PWD 路径联动、Docker/Podman 镜像容器管理；支持通过 GitHub/Gitee 同步配置数据，计划推出免费版与付费版。
 
 ![btshell](./btshell.png)
 
@@ -75,12 +77,12 @@ b站视频[我用 Rust 实现 SSH 工具完整的心路历程](https://www.bilib
 
 11. [ishellpro](https://ishell.cc/zh-CN)
 
-一款原生编译的高性能全协议终端管理工具，一站式支持 SSH、SFTP、RDP、VNC、Telnet、串口六大协议，内置 AI 助手、免 Agent 实时监控与 SSH 隧道，安装包不到 30MB、秒级启动，覆盖 Windows/macOS/Linux/Android/iOS 全平台。
+一款闭源商业软件，原生编译的高性能全协议终端管理工具，一站式支持 SSH、SFTP、RDP、VNC、Telnet、串口六大协议，内置 AI 助手、免 Agent 实时监控与 SSH 隧道，安装包不到 30MB、秒级启动，覆盖 Windows/macOS/Linux/Android/iOS 全平台。免费版长期可用，涵盖 SSH、本地终端、SFTP、Telnet 等核心连接；RDP、VNC、串口限制主机数量，会话录制带水印。商业版分年付 Pro 与买断 Pro，解锁不限主机数的全协议、GPU 与进程监控、加密云同步、无水印录制、更高的每月 AI Tokens，以及桌面端与移动端的全部特性。另有政企版：编译阶段移除自动更新、云同步、在线支付与遥测，用离线许可证激活，AI 可对接内网 Ollama。
 
 ![ishellpro](./ishellpro.png)
 
 12. [hexhub](https://hexhub.com/)
 
-一款集 SSH、SFTP、数据库管理、Docker 管理与 AI Agent 于一体的开发运维桌面客户端，相当于 XShell + Navicat + Portainer 的组合，支持用自然语言让 AI 协助查日志、改配置、写 SQL。
+一款闭源商业软件，集 SSH、SFTP、数据库管理、Docker 管理与 AI Agent 于一体的开发运维桌面客户端，相当于 XShell + Navicat + Portainer 的组合，支持用自然语言让 AI 协助查日志、改配置、写 SQL。免费版永久免费，开放 90% 以上核心功能，覆盖数据库、SSH、SFTP 与 Docker，适合个人日常使用。商业版分专业版与增强版：专业版支持同时登录 3 台设备，包含云端或私有协议同步、多窗口、数据与表结构同步、SFTP 服务器互传、SSH 命令广播，以及 Docker 文件管理与 Compose 编辑；增强版包含专业版全部权益，同时登录设备数提高到 6 台。企业还可单独申请私有化部署。
 
 ![hexhub](./hexhub.png)
