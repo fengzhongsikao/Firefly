@@ -41,8 +41,11 @@ draft: false
 ## go gui 框架
 [gtk](https://www.gtk.org/)
 [wxwidgets](https://www.wxwidgets.org/)
-[fyne](https://fyne.io/)
 
+[fyne](https://fyne.io/)
+![fyne](./fyne.png)
+[govcl](https://z-kit.cc/)
+![govcl](./govcl.png)
 [wails](https://wails.io/)
 ![wails](./wails.png)
 [gio](https://gioui.org/)
