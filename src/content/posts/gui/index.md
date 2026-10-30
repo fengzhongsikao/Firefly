@@ -1,7 +1,7 @@
 ---
 title: gui框架收集
 published: 2026-05-22
-updated: 2026-05-22
+updated: 2026-10-30
 description: '关于各种语言的gui 框架收集'
 image: ''
 tags: [gui]
