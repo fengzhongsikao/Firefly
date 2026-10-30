@@ -4,7 +4,7 @@ published: 2026-10-30
 description: '关于ssh工具的推荐'
 image: './index.png'
 tags: [ssh]
-category: ''
+category: 'ssh工具'
 draft: false
 lang: 'zh-CN'
 slug: ssh

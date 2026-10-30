@@ -4,7 +4,7 @@ published: 2026-10-30
 description: 几款在日常开发和生活中实用的开源软件推荐
 image: './index.png'
 tags: [software]
-category: ''
+category: '常用软件'
 draft: false
 lang: ''
 slug: common-software-recommend
