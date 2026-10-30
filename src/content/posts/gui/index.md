@@ -19,7 +19,9 @@ draft: false
 [gtk](https://www.gtk.org/)
 [wxwidgets](https://www.wxwidgets.org/)
 [gtkmm](https://www.gtkmm.org/)
+
 [eui-neo](https://github.com/sudoevolve/EUI-NEO)
+![eui-neo](./euineo.png)
 
 ### c++ 推荐
 | 你的需求 | 推荐框架 | 理由 |
