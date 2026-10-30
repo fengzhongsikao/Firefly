@@ -2,7 +2,7 @@
 title: ssh工具推荐
 published: 2026-10-30
 description: '关于ssh工具的推荐'
-image: ''
+image: './index.png'
 tags: [ssh]
 category: ''
 draft: false
