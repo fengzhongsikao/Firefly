@@ -9,7 +9,7 @@ draft: false
 lang: 'zh-CN'
 slug: ssh
 ---
-前 11 款为开源软件，源码公开、可自行构建；接着两款为闭源商业软件，核心功能有可长期使用的免费版，进阶能力在付费商业版中解锁。文末两款为开源 Android 客户端。
+前 11 款为开源软件，源码公开、可自行构建；接着三款为闭源商业软件，核心功能有可长期使用的免费版，进阶能力在付费商业版中解锁。文末两款为开源 Android 客户端。
 
 1. [motty](https://motty.page/zh)
 
@@ -81,13 +81,19 @@ b站视频[我用 Rust 实现 SSH 工具完整的心路历程](https://www.bilib
 
 ![eussh](./images/eussh.png)
 
-12. [ishellpro](https://ishell.cc/zh-CN)
+12. [xterminal](https://www.xterminal.cn/)
+
+一款闭源商业软件，面向需要管理多台服务器的开发者与运维，把 SSH 终端、SFTP、端口转发、本地终端、远程桌面和笔记放进同一个跨平台客户端。SSH 支持密码、密钥、登录凭证与交互认证，可多标签分屏，带 Shell Integration、命令块、命令补全与会话日志；SFTP 支持拖拽传输、目录归档、断点续作、在线编辑与权限管理；端口转发覆盖本地、远程与 SOCKS5，并可查看转发状态。另支持 RDP 与 VNC、Telnet、多跳代理、分组与收藏、加密云端同步，以及 CPU、内存、磁盘、网络监控。本地终端可直接使用 Bash、Zsh、PowerShell，并支持工作区、Profile、WSL 与会话恢复。内置 AI 助手可解释和生成命令、辅助排错，也提供仅监听本机的 MCP 服务，供 Codex、Claude Code 等在授权后调用。覆盖 macOS（Apple Silicon / Intel）、Windows x64 与 Linux x64。可免费用于商业场景，订阅解锁增强功能；禁止复制、分发、衍生与反向工程。
+
+![xterminal](./images/xterminal.png)
+
+13. [ishellpro](https://ishell.cc/zh-CN)
 
 一款闭源商业软件，原生编译的高性能全协议终端管理工具，一站式支持 SSH、SFTP、RDP、VNC、Telnet、串口六大协议，内置 AI 助手、免 Agent 实时监控与 SSH 隧道，安装包不到 30MB、秒级启动，覆盖 Windows/macOS/Linux/Android/iOS 全平台。免费版长期可用，涵盖 SSH、本地终端、SFTP、Telnet 等核心连接；RDP、VNC、串口限制主机数量，会话录制带水印。商业版分年付 Pro 与买断 Pro，解锁不限主机数的全协议、GPU 与进程监控、加密云同步、无水印录制、更高的每月 AI Tokens，以及桌面端与移动端的全部特性。另有政企版：编译阶段移除自动更新、云同步、在线支付与遥测，用离线许可证激活，AI 可对接内网 Ollama。
 
 ![ishellpro](./images/ishellpro.png)
 
-13. [hexhub](https://hexhub.com/)
+14. [hexhub](https://hexhub.com/)
 
 一款闭源商业软件，集 SSH、SFTP、数据库管理、Docker 管理与 AI Agent 于一体的开发运维桌面客户端，相当于 XShell + Navicat + Portainer 的组合，支持用自然语言让 AI 协助查日志、改配置、写 SQL。免费版永久免费，开放 90% 以上核心功能，覆盖数据库、SSH、SFTP 与 Docker，适合个人日常使用。商业版分专业版与增强版：专业版支持同时登录 3 台设备，包含云端或私有协议同步、多窗口、数据与表结构同步、SFTP 服务器互传、SSH 命令广播，以及 Docker 文件管理与 Compose 编辑；增强版包含专业版全部权益，同时登录设备数提高到 6 台。企业还可单独申请私有化部署。
 
@@ -95,13 +101,13 @@ b站视频[我用 Rust 实现 SSH 工具完整的心路历程](https://www.bilib
 
 手机端
 
-14. [connectbot](https://connectbot.org/)
+15. [connectbot](https://connectbot.org/)
 
 一款面向 Android 的开源 SSH 与 Mosh 客户端，自 2007 年持续维护，用来在手机上连接 Linux 服务器、树莓派或远程开发机。支持多会话并行并在主机之间切换，可用密码或 SSH 密钥登录，并提供端口转发；Mosh 可在切换网络或短暂断线后恢复终端（需服务端安装兼容软件）。终端可固定特殊按键、复制回滚内容，并自定义颜色与字号，另支持 Telnet 与 SFTP。可从 Google Play 或 GitHub Releases 安装（含体积更小的 google 版，以及自带加密库的 oss 版），Apache-2.0 协议开源。
 
 ![connectbot](./images/connectbot.png)
 
-15. [haven](https://glasshaven.github.io/Haven/zh/)
+16. [haven](https://glasshaven.github.io/Haven/zh/)
 
 一款面向 Android 的开源远程工作台，AGPLv3 协议，无遥测、无广告、无需账户，最低 Android 8.0。终端支持 Mosh、Eternal Terminal 与 SSH，以及 USB/蓝牙/BLE 串口和 tmux 会话恢复；桌面侧覆盖 VNC、RDP、SPICE，并带 GPU 加速的原生 Wayland 合成器。文件与云存储支持 SFTP/SCP、SMB 和 60 多个云服务商（rclone），可跨文件系统复制与移动，另含 FFmpeg 转码。连接方面支持本地/远程/动态端口转发与跳板、SOCKS/HTTP/Tor 代理、按应用的 WireGuard 与 Tailscale 隧道、端口敲门，以及 SSH 密钥与 FIDO2。设备上可通过 PRoot 免 root 运行 Alpine、Debian、Ubuntu 等发行版，arm64 上也可以用户态 Linux 启动完整内核；另提供约 230 个需授权的 MCP 工具，供智能体操作连接与界面。备份以 AES-256-GCM 加密，界面含简体中文等 12 种语言，可从 F-Droid 或 GitHub Releases 安装。
 
