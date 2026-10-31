@@ -27,7 +27,7 @@ export type MusicPlayerConfig = {
 		server?: "netease" | "tencent" | "kugou" | "xiami" | "baidu";
 
 		// 类型：song=单曲, playlist=歌单, album=专辑, search=搜索, artist=艺术家
-		type?: "song" | "playlist" | "album" | "search" | "artist";
+		type?: "song" | "playlist" | "album" | "search" | "artist" | "url";
 
 		// 歌单/专辑/单曲 ID 或搜索关键词
 		id?: string;

@@ -23,13 +23,12 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// Meting API 配置
 	meting: {
 		// Meting API 地址
-		//https://meting.mikus.ink/api?server=netease&type=playlist&id=6907557348
-		// 默认使用官方 API，也可以使用自定义 API
-		api: "https://meting.elysium-stack.cn/api?server=:server&type=:type&id=:id&r=:r",
+		// meting.elysium-stack.cn 已无法解析；meting.mikus.ink 当前 522
+		api: "https://met.api.xiaoguan.fit/docs/server=:server&type=:type&id=:id",
 		// 音乐平台：netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
 		server: "tencent",
 		// 类型：song=单曲, playlist=歌单, album=专辑, search=搜索, artist=艺术家
-		type: "song",
+		type: "url",
 		// 歌单/专辑/单曲 ID 或搜索关键词
 		id: "004HjNm13KolRH",
 		// 认证 token（可选）
