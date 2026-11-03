@@ -10,9 +10,16 @@ draft: false
 ---
 
 ## c gui 框架
+[gtk](https://www.gtk.org/)
+[imgui](https://github.com/ocornut/imgui)
+[lvgl](https://lvgl.io/)
+
+## c# gui 框架
 [winforms](https://learn.microsoft.com/zh-cn/dotnet/desktop/winforms/overview/)
 [wpf](https://learn.microsoft.com/zh-cn/dotnet/desktop/wpf/overview/)
-[pgui](https://github.com/duanebester/pgui)
+[winui](https://github.com/microsoft/microsoft-ui-xaml)
+[maui](https://github.com/dotnet/maui)
+[avalonia](https://github.com/AvaloniaUI/Avalonia)
 
 ## c++ gui 框架
 [qt](https://www.qt.io/)
