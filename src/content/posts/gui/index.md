@@ -56,7 +56,7 @@ draft: false
 ![vivaui](./viva.png)
 [mygo](https://mygo.egoist.dev/)
 ![mygo](./mygo.png)
-[go-gui](https://github.com/go-gui-org/go-gui)
+[go-gui](https://github.com/2252688138/Go-gui)
 文章推荐：[Go-Gui:一套 无限接近 现代化UI的 GPU绘制界面组件框架](https://juejin.cn/post/7701703182474248211?share_token=8ca0fdb2-0a38-4315-9a74-ef5f3c834092)
 
 ## dart gui 框架
