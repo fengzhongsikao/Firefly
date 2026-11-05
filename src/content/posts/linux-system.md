@@ -2,7 +2,7 @@
 title: Linux 发行版四大系列
 published: 2026-08-31
 updated: 2026-11-05
-description: '按包管理把常见 Linux 发行版分成 Debian、RHEL、SUSE、Arch 四大系列'
+description: '按包管理把常见 Linux 发行版分成 Debian、红帽、SUSE、Arch 四大系列'
 image: ''
 tags: [linux]
 category: 'linux生存日记'
@@ -18,14 +18,14 @@ slug: linux
 | 系列 | 包管理 | 性格 | 典型场景 |
 | --- | --- | --- | --- |
 | 一、Debian | apt / dpkg | 稳定、软件多 | 桌面、服务器、公有云 |
-| 二、RHEL | dnf / rpm | 上游求新，下游企业级 | 桌面开发、生产服务器 |
+| 二、红帽 | dnf / rpm | 上游求新，下游企业级 | 桌面开发、生产服务器 |
 | 三、SUSE | zypper / rpm | 欧洲企业市场，配置用 YaST | 企业服务器、滚动桌面 |
 | 四、Arch | pacman | 滚动更新、自己动手 | 桌面、进阶玩家 |
 
 各系常见成员：
 
 - **Debian 系**：Debian、Ubuntu、Linux Mint、Pop!_OS、Zorin OS、elementary OS、KDE neon、Lingmo OS、Deepin、Raspberry Pi OS、Kali、Tails、Proxmox、MX Linux、Q4OS、antiX、Parrot、openKylin、Linux Lite、Puppy、Vanilla OS、Whonix
-- **RHEL 系**：Fedora、CentOS Stream、RHEL、Rocky Linux、AlmaLinux、Oracle Linux、龙蜥 Anolis、Qubes OS、Nobara、Bazzite、RakuOS
+- **红帽系**：Fedora、CentOS Stream、红帽企业版、Rocky Linux、AlmaLinux、Oracle Linux、龙蜥 Anolis、Qubes OS、Nobara、Bazzite、RakuOS
 - **SUSE 系**：openSUSE Leap、openSUSE Tumbleweed、SLES、GeckoLinux
 - **Arch 系**：Arch Linux、Manjaro、EndeavourOS、Garuda、CachyOS、SteamOS、CatOS、BlackArch、Artix、Omarchy
 
@@ -193,7 +193,7 @@ KDE 官方出的系统。底层是 Ubuntu LTS，Plasma 桌面保持最新。适�
 - **Slax**：小体积活系统，现在基于 Debian
 - **emmabuntüs**：用来翻新旧电脑的 Debian
 - **GXDE OS**：经典 deepin 桌面，底层换成较新的 Debian
-- **CutefishOS**：国产桌面，已经停更，界面这条线主要由 Lingmo OS 继续
+- **Cutefish**：2021 年以 CutefishOS 起步，是基于 Debian 的发行版，桌面也是自己的。代码在 [cutefishos](https://github.com/cutefishos)。中间停过更，Lingmo OS 沿用过它的界面。2026 年仓库重新有提交，桌面改成自己的 Wayland 合成器，一部分 macOS 应用能在开发版里打开，安装镜像还是 nightly
 - **铜豌豆 atzlinux**：面向国内软件环境的 Debian
 - **UALinux**：Ubuntu 的游戏整合版
 - **Edubuntu、Ubuntu Unity、Ubuntu Sway**：Ubuntu 衍生，分别面向教育、Unity 桌面和平铺窗口
@@ -210,19 +210,19 @@ KDE 官方出的系统。底层是 Ubuntu LTS，Plasma 桌面保持最新。适�
 
 ---
 
-## 二、RHEL 系列
+## 二、红帽系
 
-包管理用 dnf / rpm。家谱从上游到下游是一条线，Rocky、Alma、Oracle Linux、龙蜥是旁边的兼容系统。
+包管理用 dnf / rpm。这一系的公司是红帽（Red Hat）。社区上游是 Fedora，商业产品的全称是 Red Hat Enterprise Linux，简称 RHEL，下面称红帽企业版。Rocky、Alma、Oracle Linux、龙蜥是旁边的兼容系统。
 
 ```text
-Fedora → CentOS Stream → RHEL
+Fedora → CentOS Stream → 红帽企业版
                           ├─ Rocky Linux
                           ├─ AlmaLinux
                           ├─ Oracle Linux
-                          └─ 龙蜥 Anolis（8 兼容 RHEL 8）
+                          └─ 龙蜥 Anolis（8 兼容红帽企业版 8）
 
 Fedora 上也长出 Nobara、Bazzite、RakuOS、Ultramarine、Qubes OS
-RHEL 旁边还有 EuroLinux
+红帽企业版旁边还有 EuroLinux
 ```
 
 ### Fedora
@@ -237,29 +237,29 @@ Red Hat 赞助的社区发行版，这一系的上游。新特性先在这里落
 
 ### CentOS Stream
 
-RHEL 的上游开发分支，持续接收下一个 RHEL 小版本的更新。可以免费用，但不是从前那种「和 RHEL 一模一样的免费复刻」。
+红帽企业版的上游开发分支，持续接收下一个小版本的更新。可以免费用，但不是从前那种「和红帽企业版一模一样的免费复刻」。
 
 > 旧的 CentOS Linux 已在 2024 年停止维护。网上很多教程还在写它，不要再拿来当生产系统。
 
-### RHEL
+### 红帽企业版
 
-Red Hat Enterprise Linux，商业订阅制。稳定、支持周期长，有官方安全更新和软硬件认证。云上和传统机房都很常见。
+全称 Red Hat Enterprise Linux，简称 RHEL。商业订阅制。稳定、支持周期长，有官方安全更新和软硬件认证。云上和传统机房都很常见。
 
 ### Rocky Linux
 
-原 CentOS 创始人发起的社区复刻，目标是与 RHEL 二进制兼容。免费，没有 RHEL 那种官方订阅。
+原 CentOS 创始人发起的社区复刻，目标是与红帽企业版二进制兼容。免费，没有红帽企业版那种官方订阅。
 
 ### AlmaLinux
 
-社区基金会维护的 RHEL 兼容系统，免费。项目由 CloudLinux 发起，现在独立运作。2023 年后目标是 ABI 兼容：给 RHEL 写的应用能跑，但不承诺每个软件包都逐字节相同。
+社区基金会维护的红帽企业版兼容系统，免费。项目由 CloudLinux 发起，现在独立运作。2023 年后目标是 ABI 兼容：给红帽企业版写的应用能跑，但不承诺每个软件包都逐字节相同。
 
 ### Oracle Linux
 
-Oracle 维护的 RHEL 兼容系统，可以免费下载使用，官方支持要另买。可以选择兼容内核，或 Oracle 自己的 UEK。跑 Oracle 数据库的环境里很常见。
+Oracle 维护的红帽企业版兼容系统，可以免费下载使用，官方支持要另买。可以选择兼容内核，或 Oracle 自己的 UEK。跑 Oracle 数据库的环境里很常见。
 
 ### 龙蜥 Anolis
 
-龙蜥社区维护，阿里云等国内云厂商用得很多。Anolis 8 兼容 RHEL 8。它是国产云环境里的常见镜像，不是 Red Hat 的官方下游。
+龙蜥社区维护，阿里云等国内云厂商用得很多。Anolis 8 兼容红帽企业版 8。它是国产云环境里的常见镜像，不是红帽的官方下游。
 
 ### Qubes OS
 
@@ -283,13 +283,13 @@ Oracle 维护的 RHEL 兼容系统，可以免费下载使用，官方支持要�
 
 ### EuroLinux
 
-RHEL 的兼容复刻，可以免费使用，欧洲用得相对多。
+红帽企业版的兼容复刻，可以免费使用，欧洲用得相对多。
 
-### 更多 RHEL 系
+### 更多红帽系
 
 - **OsoLinux**：基于 Fedora，预置一些国内软件
 - **Fedora SoaS**：Fedora 的教育版，桌面是 Sugar
-- **VzLinux**：Virtuozzo 维护的 RHEL 兼容系统
+- **VzLinux**：Virtuozzo 维护的红帽企业版兼容系统
 
 ---
 
@@ -425,7 +425,7 @@ Steam Deck 出厂系统，基于 Arch，系统分区只读，界面围绕 Steam 
 
 ## 系列之外
 
-这些发行版不从 Debian、RHEL、SUSE、Arch 衍生，包管理和设计都是自己的一套。
+这些发行版不从 Debian、红帽、SUSE、Arch 衍生，包管理和设计都是自己的一套。
 
 ### Void Linux
 
@@ -457,7 +457,7 @@ Steam Deck 出厂系统，基于 Arch，系统分区只读，界面围绕 Steam 
 
 ### openEuler
 
-开放原子开源基金会下的服务器发行版，华为发起。使用 rpm，但不是 RHEL 的复刻，内核和软件有自己的版本节奏。国内服务器和政企环境常见。
+开放原子开源基金会下的服务器发行版，华为发起。使用 rpm，但不是红帽企业版的复刻，内核和软件有自己的版本节奏。国内服务器和政企环境常见。
 
 ### 银河麒麟
 
