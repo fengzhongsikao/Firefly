@@ -66,10 +66,10 @@ C++17 跨平台 UI。声明式 DSL 写布局，窗口用 GLFW 或 SDL2，渲染�
 [pygobject](https://pypi.org/project/PyGObject/)
 
 ## java gui 框架
-[jswing](https://www.oracle.com/java/technologies/swing/overview.html)
+[swing](https://docs.oracle.com/javase/tutorial/uiswing/)
 JDK 自带的 Swing。跨平台自绘，各系统外观差不多，不走原生控件。OpenJDK 协议是 GPL，带 Classpath 例外，应用本身可以闭源。
 
-[javafx](https://www.oracle.com/java/technologies/javafx/overview.html)
+[javafx](https://openjfx.io/)
 现在是独立项目 OpenJFX，Java 11 之后不再捆在 JDK 里。场景图加 CSS、FXML，界面用 GPU 绘制。协议同样是 GPL 加 Classpath 例外。
 
 ## go gui 框架
